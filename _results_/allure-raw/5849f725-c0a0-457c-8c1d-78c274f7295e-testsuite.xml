@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630011750004' stop='1630011766735'>
+    <name>signup Feature: signup to tribed</name>
+    <title>signup Feature: signup to tribed</title>
+    <test-cases>
+        <test-case start='1630011750005' status='passed' stop='1630011750009'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 2 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630011750009' status='passed' stop='1630011750014'>
+            <name>Given user has opened tribed</name>
+            <title>Given user has opened tribed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 2 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630011750014' status='passed' stop='1630011766729'>
+            <name>When user attempts to signup</name>
+            <title>When user attempts to signup</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 2 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630011766730' status='passed' stop='1630011766732'>
+            <name>Then user is asked to confirm email</name>
+            <title>Then user is asked to confirm email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 2 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630011766732' status='passed' stop='1630011766733'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 2 11-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='f4c28d79-64c3-4eeb-98e2-a1a0532887f6-attachment.mp4' type='video/mp4' size='163'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
