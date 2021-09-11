@@ -28,7 +28,8 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     suites:{
-        signup:['features/signup/signup.feature']
+        signup:['features/signup/signup.feature'],
+        create_profile:['features/create-profile/create-profile.feature']
     },
     //
     // ============
@@ -55,7 +56,7 @@ exports.config = {
     capabilities: [{
         platformName: 'android',
        'appium:deviceName': 'Pixel 2',
-       'appium:app': join(process.cwd(),'./app-production-release.apk'),
+       'appium:app': join(process.cwd(),'./apps/app-development-release(2).apk'),
        'appium:maxInstances': '1',
        'appium:platformVersion': '11'
     }],
