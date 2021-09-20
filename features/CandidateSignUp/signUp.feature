@@ -2,8 +2,8 @@ Feature: Candidate sign up
 
     Verify that a candidate is able to sign up
 
-    Scenario: user enters wrong password
-    Given a user is in signup page
+    Scenario: user enters wrong email
+    Given a user is on the signup page
     When a user enters the wrong email format
     Then The application should display and error for wrong email format with a guidance of the correct email format  
 
