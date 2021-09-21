@@ -29,7 +29,8 @@ exports.config = {
     ],
     suites:{
         signup:['features/signup/signup.feature'],
-        create_profile:['features/create-profile/create-profile.feature']
+        create_profile:['features/create-profile/create-profile.feature'],
+        candidate_sign_up:['features/CandidateSignUp/editProfile.feature']
     },
     //
     // ============
