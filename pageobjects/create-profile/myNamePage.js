@@ -14,6 +14,10 @@ class MyNamePage {
     return $('//android.widget.TextView[@text="Next"]');
   }
 
+  get updateChangesBTN() {
+    return $('//android.widget.TextView[@text="Update changes"]');
+  }
+
   checkpage() {
     if (!this.identifier.isExisting()) {
       throw "not on checkpage";

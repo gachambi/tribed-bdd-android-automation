@@ -1,15 +1,18 @@
 class Sidenav {
-  get() {
-    return $("//");
+  get createProfileBTN() {
+    return $('//android.widget.TextView[@text="Create profile"]');
   }
-  get() {
-    return $("//");
+  get companiesIFollowBTN() {
+    return $('//android.widget.TextView[@text="Companies I Follow"]');
   }
-  get() {
-    return $("//");
+  get companyRevealsBTN() {
+    return $('//android.widget.TextView[@text="Company reveals"]');
   }
-  get() {
-    return $("//");
+  get termsAndConditions() {
+    return $('//android.widget.TextView[@text="Terms and Conditions"]');
+  }
+  get logoutBTN() {
+    return $('//android.widget.TextView[@text="Log out"]');
   }
 }
 
